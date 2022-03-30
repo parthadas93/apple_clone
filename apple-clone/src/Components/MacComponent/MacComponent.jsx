@@ -1,7 +1,13 @@
 import "./Mac.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export const Mac = () => {
+    const [noteBook, setNoteBook] = useState("notebook")
+    
+    function changeState() {
+        setNoteBook("desktop")
+    }
   return (
     <div>
       <h2>
@@ -18,7 +24,7 @@ export const Mac = () => {
             Learn More{" "}
           </Link>
         </div>
-        <img src="	https://www.apple.com/v/mac/home/bl/images/overview/hero/mac_studio__c2wojtx43pw2_large.jpg"></img>
+        <img src="https://www.apple.com/v/mac/home/bl/images/overview/hero/mac_studio__c2wojtx43pw2_large.jpg"></img>
         <hr className="hr" />
       </h2>
         {/* first section end */}
@@ -56,7 +62,21 @@ export const Mac = () => {
         </div>
         <img src="https://www.apple.com/v/mac/home/bl/images/overview/hero/macbook_pro_14_16__dmqm5vr9l7yq_large.jpg"></img>
         <hr className="hr" /> 
-        </h2>
+          </h2>
+          {/* 3rd section end */}
+
+
+
+          <section className="variety">
+
+              <h3 className="main_heading">Which Mac is right for you?</h3>
+              <ul className="list">
+                  <li>Notebook</li>
+                  <li onClick={() => { changeState()}}>desktop</li>
+              </ul>
+             
+             
+        </section>
 
     </div>
   );

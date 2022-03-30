@@ -84,3 +84,25 @@
   margin-bottom: 50px;
   background-color: rgb(245,245,247);
 }
+
+
+
+/* 3 section end */
+
+.variety{
+    background-color: rgb(250,250,250);
+}
+.main_heading{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+ .list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    
+}
