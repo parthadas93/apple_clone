@@ -9,6 +9,7 @@ import { Safari , Photo , iMovies , GarageBand,Pages, Numbers, Keynote} from "..
 export const Mac = () => {
   const [isToggled, setIsToggled] = useState(true);
   const [app, setApp] = useState("safari")
+  const [pro, setPro] = useState("logic")
 
   // function changeState() {
   //     setNoteBook(false)
@@ -101,7 +102,38 @@ export const Mac = () => {
           {(app === "safari") && <Safari></Safari>}
           {(app === "photo") && <Photo></Photo>}
           {(app === "imovies") && <iMovies></iMovies>}
-          
+          {(app === "garage") && <GarageBand></GarageBand>}
+          {(app === "pages") && <Pages></Pages>}
+          {(app === "numbers") && <Numbers></Numbers>}
+          {(app === "keynote")&&<Keynote></Keynote>}
+            
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <section>
+        <h1 className="mainHeading">Pro Apps</h1>
+        <p className="info">
+        For professionals ready to push their creativity, these industry-leading apps offer maximum control <br /> over editing, processing, and output of music and film.
+        </p>
+
+        <div className="app">
+          <div className="appCard">
+            <img onClick={()=> setApp("safari")} src="./images/pro1.png" alt="" />
+            <img onClick={()=> setApp("photo")} src="./images/pro2.png" alt="" />
+            <img onClick={()=> setApp("imovies")} src="./images/pro3.png" alt="" />
+            <img onClick={()=> setApp("garage")} src="./images/pro4.png" alt="" />
+            <img onClick={()=> setApp("pages")} src="./images/pro5.png" alt="" />
+           
+          </div>
+          {(app === "safari") && <Safari></Safari>}
+          {(app === "photo") && <Photo></Photo>}
+          {(app === "imovies") && <iMovies></iMovies>}
           {(app === "garage") && <GarageBand></GarageBand>}
           {(app === "pages") && <Pages></Pages>}
           {(app === "numbers") && <Numbers></Numbers>}

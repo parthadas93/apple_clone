@@ -50,7 +50,7 @@ export const GarageBand= () => {
         
             <p className="appInfo">
 
-The easiest way to create great-sounding songs on your Mac. With an intuitive interface and access to a complete sound library, it’s never been easier to learn, play, record, and share music like a pro..</p>
+The easiest way to create great-sounding songs on your Mac. With an intuitive interface and <br /> access to a complete sound library, it’s never been easier to learn, play, record, and share <br /> music like a pro..</p>
             
 
             <img src="./images/built4.png" alt="" />
@@ -67,7 +67,7 @@ export const Pages= () => {
         <>
         
             <p className="appInfo">
-This powerful word processor gives you everything you need to create documents that look beautiful. And read beautifully. It lets you work seamlessly between Mac, iOS, and iPadOS devices. And work effortlessly with people who use Microsoft Word..</p>
+This powerful word processor gives you everything you need to create documents that look <br /> beautiful. And read beautifully. It lets you work seamlessly between Mac, iOS, and iPadOS <br /> devices. And work effortlessly with people who use Microsoft Word..</p>
             
 
             <img src="./images/built5.png" alt="" />
@@ -83,7 +83,7 @@ export const Numbers= () => {
         <>
         
             <p className="appInfo">
-        Create sophisticated spreadsheets with dramatic interactive charts, tables, and images that paint a revealing picture of your data. Work seamlessly between Mac, iOS, and iPadOS devices. And work effortlessly with people who use Microsoft Excel.</p>
+        Create sophisticated spreadsheets with dramatic interactive charts, tables, and images that <br /> paint a revealing picture of your data. Work seamlessly between Mac, iOS, <br /> and iPadOS devices. And work effortlessly with people who use Microsoft Excel.</p>
             
 
             <img src="./images/built6.png" alt="" />
@@ -98,7 +98,7 @@ export const Keynote= () => {
     return (
         <>
         
-            <p className="appInfo">Bring your ideas to life with beautiful presentations. Employ powerful tools and dazzling effects that keep your audience engaged. Work seamlessly between Mac, iOS, and iPadOS devices. And work effortlessly with people who use Microsoft PowerPoint.</p>
+            <p className="appInfo">Bring your ideas to life with beautiful presentations. Employ powerful tools and dazzling <br /> effects that keep your audience engaged. Work seamlessly between Mac, iOS, and iPadOS <br /> devices. And work effortlessly with people who use Microsoft PowerPoint.</p>
             
 
             <img src="./images/built7.png" alt="" />
