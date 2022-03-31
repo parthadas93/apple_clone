@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Notebook } from "../Notebook Models/Notebooks";
 import { Desktop } from "../Desktop Models/Desktop";
-import { Safari , Photo ,iMovies, GarageBand,Pages, Numbers, Keynote} from "../Built App/BuiltApp";
+import { Safari , Photo , iMovies , GarageBand,Pages, Numbers, Keynote} from "../Built App/BuiltApp";
 
 
 export const Mac = () => {
@@ -91,7 +91,7 @@ export const Mac = () => {
           <div className="appCard">
             <img onClick={()=> setApp("safari")} src="./images/app1.png" alt="" />
             <img onClick={()=> setApp("photo")} src="./images/app2.png" alt="" />
-            <img onClick={()=> setApp("imovie")} src="./images/app3.png" alt="" />
+            <img onClick={()=> setApp("imovies")} src="./images/app3.png" alt="" />
             <img onClick={()=> setApp("garage")} src="./images/app4.png" alt="" />
             <img onClick={()=> setApp("pages")} src="./images/app5.png" alt="" />
             <img onClick={()=> setApp("numbers")} src="./images/app6.png" alt="" />
@@ -100,7 +100,8 @@ export const Mac = () => {
           </div>
           {(app === "safari") && <Safari></Safari>}
           {(app === "photo") && <Photo></Photo>}
-          {(app === "imovie") && <iMovies></iMovies>}
+          {(app === "imovies") && <iMovies></iMovies>}
+          
           {(app === "garage") && <GarageBand></GarageBand>}
           {(app === "pages") && <Pages></Pages>}
           {(app === "numbers") && <Numbers></Numbers>}
