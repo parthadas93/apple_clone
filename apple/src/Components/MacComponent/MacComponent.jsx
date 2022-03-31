@@ -3,13 +3,16 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Notebook } from "../Notebook Models/Notebooks";
 import { Desktop } from "../Desktop Models/Desktop";
+import { Safari , Photo ,iMovies, GarageBand,Pages, Numbers, Keynote} from "../Built App/BuiltApp";
+
 
 export const Mac = () => {
-    const [isToggled, setIsToggled] = useState(true)
-    
-    // function changeState() {
-    //     setNoteBook(false)
-    // }
+  const [isToggled, setIsToggled] = useState(true);
+  const [app, setApp] = useState("safari")
+
+  // function changeState() {
+  //     setNoteBook(false)
+  // }
   return (
     <div>
       <h2>
@@ -29,7 +32,7 @@ export const Mac = () => {
         <img src="https://www.apple.com/v/mac/home/bl/images/overview/hero/mac_studio__c2wojtx43pw2_large.jpg"></img>
         <hr className="hr" />
       </h2>
-        {/* first section end */}
+      {/* first section end */}
       <h2>
         <span className="top">New</span>
         <br />
@@ -46,11 +49,10 @@ export const Mac = () => {
         </div>
         <img src="	https://www.apple.com/v/mac/home/bl/images/overview/hero/studio_display__cn9qj5umkwya_large.jpg"></img>
         <hr className="hr" />
-          </h2>
-         {/* 2nd section end  */}
+      </h2>
+      {/* 2nd section end  */}
 
-          <h2>
-        
+      <h2>
         <span className="mainHeading">MacBook Pro</span>
         <p className="subHeading">Supercharged for pros.</p>
         <span className="pricing">From $1999</span>
@@ -63,23 +65,49 @@ export const Mac = () => {
           </Link>
         </div>
         <img src="https://www.apple.com/v/mac/home/bl/images/overview/hero/macbook_pro_14_16__dmqm5vr9l7yq_large.jpg"></img>
-        <hr className="hr" /> 
-          </h2>
-          {/* 3rd section end */}
+        <hr className="hr" />
+      </h2>
+      {/* 3rd section end */}
 
+      <section className="variety">
+        <h3 className="main_heading">Which Mac is right for you?</h3>
+        <ul className="list">
+          <li onClick={() => setIsToggled(true)}>Notebook</li>
+          <li onClick={() => setIsToggled(false)}>Desktop</li>
+        </ul>
 
+        {isToggled ? <Notebook /> : <Desktop />}
+      </section>
 
-          <section className="variety">
+      <section>
+        <h1 className="mainHeading">Built-In Apps</h1>
+        <p className="info">
+          Built-in Apps Powerful creativity and productivity tools live inside
+          every Mac — apps that help you explore,
+          <br /> connect, and work more efficiently.
+        </p>
 
-              <h3 className="main_heading">Which Mac is right for you?</h3>
-              <ul className="list">
-                  <li onClick={() =>  setIsToggled(true)}>Notebook</li>
-                  <li onClick={() =>  setIsToggled(false)}>Desktop</li>
-              </ul>
-             
-       { isToggled ? <Notebook/> : <Desktop/> }
-        </section>
-
+        <div className="app">
+          <div className="appCard">
+            <img onClick={()=> setApp("safari")} src="./images/app1.png" alt="" />
+            <img onClick={()=> setApp("photo")} src="./images/app2.png" alt="" />
+            <img onClick={()=> setApp("imovie")} src="./images/app3.png" alt="" />
+            <img onClick={()=> setApp("garage")} src="./images/app4.png" alt="" />
+            <img onClick={()=> setApp("pages")} src="./images/app5.png" alt="" />
+            <img onClick={()=> setApp("numbers")} src="./images/app6.png" alt="" />
+            <img onClick={()=> setApp("keynote")} src="./images/app7.png" alt="" />
+            
+          </div>
+          {(app === "safari") && <Safari></Safari>}
+          {(app === "photo") && <Photo></Photo>}
+          {(app === "imovie") && <iMovies></iMovies>}
+          {(app === "garage") && <GarageBand></GarageBand>}
+          {(app === "pages") && <Pages></Pages>}
+          {(app === "numbers") && <Numbers></Numbers>}
+          {(app === "keynote")&&<Keynote></Keynote>}
+            
+        </div>
+      </section>
     </div>
   );
 };

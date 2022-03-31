@@ -93,6 +93,13 @@
 .variety{
     background-color: rgb(250,250,250);
 }
+.variety li {
+  cursor: pointer;
+  
+}
+ li:hover{
+  text-decoration: underline;
+}
 .main_heading{
     font-size: 48px;
     line-height: 1.08349;
@@ -106,4 +113,29 @@
     gap: 30px;
     list-style: none;
     
+}
+
+
+
+/* <------------------> */
+
+.mainHeading{
+  font-size: 48px;
+  line-height: 1.08349;
+  font-weight: 600;
+  letter-spacing: -.003em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-top: 150px;
+}
+.info {
+font-size: 20px;
+}
+.appCard{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.appCard img:hover{
+  cursor: pointer;
 }
