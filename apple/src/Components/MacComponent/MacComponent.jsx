@@ -2,6 +2,7 @@ import "./Mac.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Notebook } from "../Notebook Models/Notebooks";
+import { Desktop } from "../Desktop Models/Desktop";
 
 export const Mac = () => {
     const [isToggled, setIsToggled] = useState(true)
@@ -73,10 +74,10 @@ export const Mac = () => {
               <h3 className="main_heading">Which Mac is right for you?</h3>
               <ul className="list">
                   <li onClick={() =>  setIsToggled(true)}>Notebook</li>
-                  <li onClick={() =>  setIsToggled(false)}>desktop</li>
+                  <li onClick={() =>  setIsToggled(false)}>Desktop</li>
               </ul>
              
-       { isToggled ? <Notebook/> : <p>No data</p> }
+       { isToggled ? <Notebook/> : <Desktop/> }
         </section>
 
     </div>

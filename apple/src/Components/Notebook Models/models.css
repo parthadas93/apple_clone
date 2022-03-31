@@ -1,6 +1,6 @@
 .modelImage{
     display: flex;
-    border: 1px solid red;
+    justify-content: space-evenly;
 }
 .productName{
     font-size: 24px;
@@ -8,10 +8,12 @@
     font-weight: 600;
     letter-spacing: .009em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: rgb(29,29,31);
 }
 .price{
     line-height: 5px;
     font-size: 15px;
+    color: rgb(29,29,31);
 }
 .button{
     cursor: pointer;
@@ -33,4 +35,17 @@
     background: #0071e3;
     color: #fff;
     border: none;
+}
+.modelCard{
+    border-bottom: 1px solid slategray;
+    justify-content: center;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+    
+}
+.gridItem h5{
+    color:rgb(88,88,89); 
 }

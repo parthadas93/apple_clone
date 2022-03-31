@@ -1,15 +1,13 @@
-import "./models.css"
-import "../MacComponent/Mac.css"
+import "../Notebook Models/models.css"
+import "./Desktop.css"
 import { Link } from "react-router-dom"
 
-
-export const Notebook = () => {
+export const Desktop = () => {
     return (
         <>
-        
-            <div className="modelImage">
+         <div className="modelImage">
                 <div className="modelCard">
-                    <img src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_mba__fchj615oz0yi_large.png" />
+                    <img src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_imac24__bdgus6d1xqb6_large.png" />
                
                     <h4 className="productName">MacBook Air</h4>
                     <p className="price">From $599</p>
@@ -19,7 +17,7 @@ export const Notebook = () => {
                 </div>
 
                 <div className="modelCard">
-                    <img src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_mba__fchj615oz0yi_large.png" />
+                    <img src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_macmini__b77zzeep1s6a_large.png" />
                
                     <h4 className="productName">MacBook Pro 13''</h4>
                     <p className="price">From $599</p>
@@ -30,7 +28,18 @@ export const Notebook = () => {
 
 
                 <div className="modelCard">
-                    <img src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_mba__fchj615oz0yi_large.png" />
+                    <img src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_macstudio__dg371ccau70i_large.png" />
+               
+                    <h4 className="productName">MacBook Air</h4>
+                    <p className="price">From $599</p>
+                    <button className="button">Buy</button>
+                    <br/>
+                    <Link to= "#"  className="link">Learn More</Link>
+                </div>
+
+
+                <div className="modelCard">
+                    <img src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_macpro__cj3i514iwpua_large.png" />
                
                     <h4 className="productName">MacBook Air</h4>
                     <p className="price">From $599</p>
@@ -39,10 +48,13 @@ export const Notebook = () => {
                     <Link to= "#"  className="link">Learn More</Link>
                 </div>
             </div>
-            
-{/* -----------1st part end------- */}
 
-            <div className="gridContainer">
+
+
+
+            {/* -----------1st part end------- */}
+
+            <div className="desktopgridContainer">
                 <div className="gridItem">
                     <img src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_icon_m1__dsskrswqk7wy_large.png" alt="" />
                     <h5>Apple M1 chip</h5>
