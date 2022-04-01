@@ -5,7 +5,7 @@ import { Notebook } from "../Notebook Models/Notebooks";
 import { Desktop } from "../Desktop Models/Desktop";
 import { Safari , Photo , iMovies , GarageBand,Pages, Numbers, Keynote} from "../Built App/BuiltApp";
 
-
+import {Logic, Main,Final,Motion,Compressor} from "../Pro apps/Pro"
 export const Mac = () => {
   const [isToggled, setIsToggled] = useState(true);
   const [app, setApp] = useState("safari")
@@ -124,20 +124,19 @@ export const Mac = () => {
 
         <div className="app">
           <div className="appCard">
-            <img onClick={()=> setApp("safari")} src="./images/pro1.png" alt="" />
-            <img onClick={()=> setApp("photo")} src="./images/pro2.png" alt="" />
-            <img onClick={()=> setApp("imovies")} src="./images/pro3.png" alt="" />
-            <img onClick={()=> setApp("garage")} src="./images/pro4.png" alt="" />
-            <img onClick={()=> setApp("pages")} src="./images/pro5.png" alt="" />
+            <img onClick={()=> setPro("logic")} src="./images/pro1.png" alt="" />
+            <img onClick={()=> setPro("main")} src="./images/pro2.png" alt="" />
+            <img onClick={()=> setPro("final")} src="./images/pro3.png" alt="" />
+            <img onClick={()=> setPro("motion")} src="./images/pro4.png" alt="" />
+            <img onClick={()=> setPro("compressor")} src="./images/pro5.png" alt="" />
            
           </div>
-          {(app === "safari") && <Safari></Safari>}
-          {(app === "photo") && <Photo></Photo>}
-          {(app === "imovies") && <iMovies></iMovies>}
-          {(app === "garage") && <GarageBand></GarageBand>}
-          {(app === "pages") && <Pages></Pages>}
-          {(app === "numbers") && <Numbers></Numbers>}
-          {(app === "keynote")&&<Keynote></Keynote>}
+          {(pro === "logic") && <Logic></Logic>}
+          {(pro === "main") && <Main></Main>}
+          {(pro === "final") && <Final></Final>}
+          {(pro === "motion") && <Motion></Motion>}
+          {(pro === "compressor") && <Compressor></Compressor>}
+         
             
         </div>
       </section>
