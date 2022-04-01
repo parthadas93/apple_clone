@@ -1,0 +1,44 @@
+.topdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: rgb(51,51,51);
+
+}
+.subdiv{
+    display: flex;
+    gap: 30px;
+    color: rgb(150,150,150);
+    font-weight: lighter
+}
+.para{
+    
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color:rgb(150,150,150);
+    height: 60px;
+    background-color: rgb(245,245,247);
+    margin-top: 0;
+    
+}
+.buying_mac{
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #1d1d1f;
+    text-align: center;
+}
+.imgdiv{
+    display: flex;
+    justify-content: center;
+}
+.spce{
+    display: flex;
+    justify-content: center;
+}

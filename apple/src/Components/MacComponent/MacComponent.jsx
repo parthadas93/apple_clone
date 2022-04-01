@@ -5,7 +5,8 @@ import { Notebook } from "../Notebook Models/Notebooks";
 import { Desktop } from "../Desktop Models/Desktop";
 import { Safari , Photo , iMovies , GarageBand,Pages, Numbers, Keynote} from "../Built App/BuiltApp";
 
-import {Logic, Main,Final,Motion,Compressor} from "../Pro apps/Pro"
+import { Logic, Main, Final, Motion, Compressor } from "../Pro apps/Pro"
+
 export const Mac = () => {
   const [isToggled, setIsToggled] = useState(true);
   const [app, setApp] = useState("safari")
@@ -25,7 +26,8 @@ export const Mac = () => {
         <br />
 
         <div className="btnAndLink">
-          <button className="button">Buy</button>
+          <Link to="/mac-studio"> <button className="button"> Buy</button></Link>
+         
           <Link to="" className="link">
             Learn More
           </Link>
