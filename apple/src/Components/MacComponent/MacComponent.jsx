@@ -27,7 +27,7 @@ export const Mac = () => {
         <div className="btnAndLink">
           <button className="button">Buy</button>
           <Link to="" className="link">
-            Learn More{" "}
+            Learn More
           </Link>
         </div>
         <img src="https://www.apple.com/v/mac/home/bl/images/overview/hero/mac_studio__c2wojtx43pw2_large.jpg"></img>
@@ -140,6 +140,44 @@ export const Mac = () => {
             
         </div>
       </section>
+
+
+
+      <section className="getmore">
+        <h2 className="mainHeading" >Get more out of Mac</h2>
+        <div className="subgroup">
+          <div className="vertual">
+            <h3 className="sub">Today at Apple</h3>
+            <h2 className="main">Virtual Sessions</h2>
+            <p className="last">Learn the basics of using Mac <br />
+              live with Apple Creatives.</p>
+            <Link to="#" className="link">Signup</Link>
+          </div>
+          <img src="./images/get1.jpg" alt="" />
+
+        </div>
+      </section>
+
+
+
+      <section className="logo" >
+        <div className="subgroup">
+
+        <img src="./images/logos.jpg" alt="" />
+          <div>
+            <img src="./images/logo2.jpg" alt="" />
+            <h3 className="sub">Bundle up to six Apple services. <br />
+              And enjoy more for less.</h3>
+            <Link to="#" className="link" >Try it free</Link>
+            <Link to= "#" className="link" >Learn more {">"}</Link>
+        </div>
+
+        </div>
+
+
+      </section>
+
+
     </div>
   );
 };

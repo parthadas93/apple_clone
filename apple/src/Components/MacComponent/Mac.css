@@ -139,3 +139,38 @@ font-size: 20px;
 .appCard img:hover{
   cursor: pointer;
 }
+
+
+.subgroup{
+  display: flex;
+  gap: 100px;
+  margin-left: 100px;
+}
+.main{
+  font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: rgb(29,29,31);
+}
+.sub{
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 600;
+  letter-spacing: .009em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: rgb(29,29,31);
+}
+
+.last{
+  font-size: 21px;
+  line-height: 1.381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: rgb(29,29,31);
+}
+.logo{
+  margin-top: 150px;
+}
