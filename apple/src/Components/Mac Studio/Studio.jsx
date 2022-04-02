@@ -106,6 +106,23 @@ export const Studio = () => {
           <button className="btn">Select</button>
         </div>
       </div>
+
+
+
+      <div className="setup">
+        <div>
+
+          <h1 className="setup_heading">Build the <br /> ultimate setup.</h1>
+          <h5 className="setup_sub">You can add Studio Display <br /> and matching <br />  Magic accessories to your bag after you <br /> configure your Mac Studio.
+
+</h5>
+        </div>
+        <div>
+          <img src="./images/setup.png" alt="" />
+        </div>
+        
+        </div>
+
     </>
   );
 };
