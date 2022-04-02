@@ -42,7 +42,10 @@ export const Checkout = () => {
                   <input className="input" type="text" placeholder="India Mobile Number" />
                   <h5 className="emailmsg">We’ll email you a receipt and send order updates to your mobile phone via SMS or iMessage.</h5>
                   <br /><br /><br />
+                  <Link to="/payment" className="link">
+
                   <button className="checkoutBtn">Continue checkout</button>
+                  </Link>
                   <br /><br /><br /><br />
         </form>
       </div>
