@@ -1,0 +1,69 @@
+.main_div{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+
+}
+.main_div .infoandbuy{
+    margin-top: 200px;
+}
+.main_div h1{
+    color: white;
+}
+.hero_heading{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.sub_hero{
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: white;
+}
+.price{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: white;
+    font-size: 17px;
+}
+.imageDiv{
+    justify-content: right;
+    text-align: right;
+    margin-top: 100px;
+}
+hr{
+    background-color: rgb(245,245,247);
+    font-size: 3px;
+    height: 10px;
+}
+.capable_ipad{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.capable_heading{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+.capable_sub{
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.capable_price{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-top: 20px;
+    font-size: 17px; 
+}

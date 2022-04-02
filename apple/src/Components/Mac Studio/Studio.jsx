@@ -69,7 +69,12 @@ export const Studio = () => {
             computer. Or recycle <br /> it for free
           </div>
           <br />
+
+          <Link to="/checkout">
+
           <button className="btn">Select</button>
+          </Link>
+
         </div>
         <div>
           <img src="./images/studio2.png" alt="" />
