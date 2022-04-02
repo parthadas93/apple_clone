@@ -6,11 +6,17 @@
     color: rgb(51,51,51);
 
 }
+.topdiv:hover{
+    cursor: pointer;
+}
 .subdiv{
     display: flex;
     gap: 30px;
     color: rgb(150,150,150);
     font-weight: lighter
+}
+.subdiv:hover{
+    cursor: pointer;
 }
 .para{
     
@@ -110,4 +116,16 @@
     font-weight: lighter;
     font-size: 17px;
     
+}
+.compare{
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(250,250,250);
+}
+.compare_heading{
+    font-size: 40px;
+}
+.compare img{
+    margin-top: 50px;
 }

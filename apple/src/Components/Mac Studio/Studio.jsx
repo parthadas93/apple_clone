@@ -74,23 +74,23 @@ export const Studio = () => {
         <div>
           <img src="./images/studio2.png" alt="" />
           <h5 className="mainitem">
-            10-Core CPU <br />
-            24-Core GPU <br />
-            16-Core Neural Engine
+            20-Core CPU <br />
+            48-Core GPU <br />
+            32-Core Neural Engine
           </h5>
 
-          <h6 className="studioconfig">32GB unified memory</h6>
-          <h6 className="studioconfig">512GB SSD storage</h6>
+          <h6 className="studioconfig">64GB unified memory</h6>
+          <h6 className="studioconfig">1TB SSD storage</h6>
           <h6 className="studioconfig">
-            Front: Two USB-C ports, one SDXC card slot
+            Front: Two Thunderbolt 4 ports, one SDXC card slot
           </h6>
           <h6 className="studioconfig">
             Back: Four Thunderbolt 4 ports, two USB-A <br /> ports, one HDMI
             port, one 10Gb Ethernet <br /> port, one 3.5 mm headphone jack
           </h6>
-          <div className="mainitem">$1,999.00</div>
+          <div className="mainitem">$38990.00</div>
           <p className="studioconfig">or</p>
-          <div className="mainitem">$166.58/mo.per month for 12 mo.</div>
+          <div className="mainitem">$866.58/mo.per month for 12 mo.</div>
           <div className="stdlink">
             <Link to="#" className="link">
               Learn how to pay monthly at 0% APR when <br /> you choose Apple
@@ -121,7 +121,17 @@ export const Studio = () => {
           <img src="./images/setup.png" alt="" />
         </div>
         
-        </div>
+      </div>
+      
+
+
+
+      <div className="compare">
+        <h1 className="compare_heading">Compare Mac models</h1>
+        <Link to="#" className="link">Find the best Mac for you</Link>
+        <br />
+        <img src="./images/compare.jpg" alt="" />
+      </div>
 
     </>
   );
