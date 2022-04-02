@@ -72,7 +72,7 @@ export const Studio = () => {
 
           <Link to="/checkout">
 
-          <button className="btn">Select</button>
+          <button className="btn">Buy now</button>
           </Link>
 
         </div>
@@ -108,7 +108,10 @@ export const Studio = () => {
             computer. Or recycle <br /> it for free
           </div>
           <br />
-          <button className="btn">Select</button>
+          <Link to="/checkout">
+
+          <button className="btn">Buy now</button>
+          </Link>
         </div>
       </div>
 
