@@ -75,7 +75,7 @@ export const Mac = () => {
       <section className="variety">
         <h3 className="main_heading">Which Mac is right for you?</h3>
         <ul className="list">
-          <li onClick={() => setIsToggled(true)}>Notebook</li>
+          <li onClick={() => setIsToggled(true)}>dfdsf</li>
           <li onClick={() => setIsToggled(false)}>Desktop</li>
         </ul>
 
