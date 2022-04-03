@@ -29,7 +29,7 @@ export const Photo = () => {
 
 
 
-export const iMovies = () => {
+export const IMovies = () => {
     return (
         <>
         

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Notebook } from "../Notebook Models/Notebooks";
 import { Desktop } from "../Desktop Models/Desktop";
-import { Safari , Photo , iMovies , GarageBand,Pages, Numbers, Keynote} from "../Built App/BuiltApp";
+import { Safari , Photo , IMovies , GarageBand,Pages, Numbers, Keynote} from "../Built App/BuiltApp";
 
 import { Logic, Main, Final, Motion, Compressor } from "../Pro apps/Pro"
 
@@ -103,7 +103,7 @@ export const Mac = () => {
           </div>
           {(app === "safari") && <Safari></Safari>}
           {(app === "photo") && <Photo></Photo>}
-          {(app === "imovies") && <iMovies></iMovies>}
+          {(app === "imovies") && <IMovies></IMovies>}
           {(app === "garage") && <GarageBand></GarageBand>}
           {(app === "pages") && <Pages></Pages>}
           {(app === "numbers") && <Numbers></Numbers>}
