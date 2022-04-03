@@ -17,7 +17,7 @@ export const Mac = () => {
   // }
   return (
     <div>
-      <h2>
+      <h2 className="outer">
         <span className="top">New</span>
         <br />
         <span className="mainHeading">Mac Studio</span>
@@ -33,10 +33,10 @@ export const Mac = () => {
           </Link>
         </div>
         <img src="./images/mac1.jpg"></img>
-        <hr className="hr" />
       </h2>
+        <hr className="hr" />
       {/* first section end */}
-      <h2>
+      <h2 className="h2">
         <span className="top">New</span>
         <br />
         <span className="mainHeading">Studio Display</span>
@@ -55,7 +55,7 @@ export const Mac = () => {
       </h2>
       {/* 2nd section end  */}
 
-      <h2>
+      <h2 className="h2">
         <span className="mainHeading">MacBook Pro</span>
         <p className="subHeading">Supercharged for pros.</p>
         <span className="pricing">From $1999</span>
@@ -82,7 +82,7 @@ export const Mac = () => {
         {isToggled ? <Notebook /> : <Desktop />}
       </section>
 
-      <section>
+      <section className="variety">
         <h1 className="mainHeading">Built-In Apps</h1>
         <p className="info">
           Built-in Apps Powerful creativity and productivity tools live inside
@@ -118,7 +118,7 @@ export const Mac = () => {
 
 
 
-      <section>
+      <section className="variety">
         <h1 className="mainHeading">Pro Apps</h1>
         <p className="info">
         For professionals ready to push their creativity, these industry-leading apps offer maximum control <br /> over editing, processing, and output of music and film.
