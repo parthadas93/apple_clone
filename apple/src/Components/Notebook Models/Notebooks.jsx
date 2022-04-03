@@ -7,7 +7,7 @@ export const Notebook = () => {
     <>
       <div className="modelImage">
         <div className="modelCard">
-          <img src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_mba__fchj615oz0yi_large.png" />
+          <img src="./images/notebook1.png" />
 
           <h4 className="productName">MacBook Air</h4>
           <p className="price">From $599</p>
@@ -19,7 +19,7 @@ export const Notebook = () => {
         </div>
 
         <div className="modelCard">
-          <img src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_mba__fchj615oz0yi_large.png" />
+          <img src="./images/notebook2.png" />
 
           <h4 className="productName">MacBook Pro 13''</h4>
           <p className="price">From $599</p>
@@ -31,7 +31,7 @@ export const Notebook = () => {
         </div>
 
         <div className="modelCard">
-          <img src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_mba__fchj615oz0yi_large.png" />
+          <img src="./images/botebook3.png" />
 
           <h4 className="productName">MacBook Air</h4>
           <p className="price">From $599</p>
@@ -48,21 +48,21 @@ export const Notebook = () => {
       <div className="gridContainer">
         <div className="gridItem">
           <img
-            src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_icon_m1__dsskrswqk7wy_large.png"
+            src="./images/icon1.png"
             alt=""
           />
           <h5>Apple M1 chip</h5>
         </div>
         <div className="gridItem">
           <img
-            src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_icon_m1__dsskrswqk7wy_large.png"
+            src="./images/icon1.png"
             alt=""
           />
           <h5>Apple M1 chip</h5>
         </div>
         <div className="gridItem">
           <img
-            src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_icon_m1_pro_max__d1toavnfl1m6_large.png"
+            src="./images/icon12.png"
             alt=""
           />
           <h5>Apple M1 Pro chip or Apple M1 Max chip</h5>
@@ -95,21 +95,21 @@ export const Notebook = () => {
         </div>
         <div className="gridItem">
           <img
-            src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_icon_unified_memory__emykppauav2a_large.png"
+            src="./images/spclicon.png"
             alt=""
           />
           <h5>Up to 16 GB unified memory</h5>
         </div>
         <div className="gridItem">
           <img
-            src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_icon_unified_memory__emykppauav2a_large.png"
+            src="./images/spclicon.png"
             alt=""
           />
           <h5>Up to 16 GB unified memory</h5>
         </div>
         <div className="gridItem">
           <img
-            src="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_icon_unified_memory__emykppauav2a_large.png"
+            src="./images/spclicon.png"
             alt=""
           />
           <h5>Up to 64 GB unified memory</h5>

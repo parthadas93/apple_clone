@@ -32,7 +32,7 @@ export const Mac = () => {
             Learn More
           </Link>
         </div>
-        <img src="https://www.apple.com/v/mac/home/bl/images/overview/hero/mac_studio__c2wojtx43pw2_large.jpg"></img>
+        <img src="./images/mac1.jpg"></img>
         <hr className="hr" />
       </h2>
       {/* first section end */}
@@ -45,12 +45,12 @@ export const Mac = () => {
         <br />
 
         <div className="btnAndLink">
-          <button className="button">Buy</button>
+        <Link to="/mac-studio"> <button className="button"> Buy</button></Link>
           <Link to="" className="link">
             Learn More{" "}
           </Link>
         </div>
-        <img src="	https://www.apple.com/v/mac/home/bl/images/overview/hero/studio_display__cn9qj5umkwya_large.jpg"></img>
+        <img src="./images/mac_comp2.jpg"></img>
         <hr className="hr" />
       </h2>
       {/* 2nd section end  */}
@@ -62,12 +62,12 @@ export const Mac = () => {
         <br />
 
         <div className="btnAndLink">
-          <button className="button">Buy</button>
+        <Link to="/mac-studio"> <button className="button"> Buy</button></Link>
           <Link to="" className="link">
             Learn More{" "}
           </Link>
         </div>
-        <img src="https://www.apple.com/v/mac/home/bl/images/overview/hero/macbook_pro_14_16__dmqm5vr9l7yq_large.jpg"></img>
+        <img src="./images/mac3.jpg"></img>
         <hr className="hr" />
       </h2>
       {/* 3rd section end */}
